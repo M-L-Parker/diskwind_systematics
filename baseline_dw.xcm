@@ -1,0 +1,17 @@
+statistic chi
+method leven 10 0.01
+abund angr
+xsect vern
+cosmo 70 0 0.73
+xset delta 0.01
+xset ISMABSROOT  /Users/mlparker/programs/xspec/ismabs/
+systematic 0
+model  mtable{pds_hres_all_total.fits}*powerlaw
+            0.3        0.1        0.1        0.1        0.5        0.5
+              1       0.25       0.25       0.25        1.5        1.5
+              1        0.5        0.5        0.5          2          2
+            0.3       0.01      0.025      0.025      0.975      0.975
+              0     -0.001          0          0          5          5
+        1.99914       0.01         -3         -2          9         10
+      0.0272577       0.01          0          0      1e+20      1e+24
+bayes off

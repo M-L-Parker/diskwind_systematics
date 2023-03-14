@@ -1,0 +1,6 @@
+statistic chi
+cd simulated_spectra
+data 1:1 fakespec_0.98_6_5_0.5_1.5_2_2_0.475.pha
+cd ../
+ignore 1:1-66
+
